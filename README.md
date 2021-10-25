@@ -38,3 +38,5 @@ Here is the created world in gazebo (SeviceRobot is created using fix and revolu
 * `export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/git/gazebo_my_world/build`
 * `cd ~/git/gazebo_my_world/world`
 * Run `gazebo myworld`
+
+You should see the gazebo environment shown in image above and also a welcome message in the terminal: `Welcome to my home!`
