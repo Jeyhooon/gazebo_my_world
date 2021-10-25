@@ -1,8 +1,12 @@
 # gazebo_my_world
 The First Project for the Udacity's "Robitics SW Engineer" Course. 
-The project is about creating a world in `gazebo`. For this project a flat is modeled in gazebo and a sample plan is taken from [roomsketcher.com](https://www.roomsketcher.com/floor-plan-gallery/apartment/1-bedroom-apartment-plans/) (as shown below):
-![1-Bedroom-Apartment-Plan-3D.jpg](./1-Bedroom-Apartment-Plan-3D.jpg)
+The project is about creating a world in Gazebo. For this project a flat is modeled in gazebo and a sample plan is taken from [roomsketcher.com](https://www.roomsketcher.com/floor-plan-gallery/apartment/1-bedroom-apartment-plans/) (as shown below):
+![images/1-Bedroom-Apartment-Plan-3D.jpg](images/1-Bedroom-Apartment-Plan-3D.jpg)
 
+### Note:
+Due to Gazebo crashes upon adding window/door (couldn't find a solution online); the flat doesn't have any of them!\
+Here is the created world in gazebo (SeviceRobot is created using fix and revolute joints; other objects are imported from Gazebo online library):
+![images/myWorld.png](images/myWorld.png)
 ## Project Structure
 
 
@@ -18,6 +22,6 @@ The project is about creating a world in `gazebo`. For this project a flat is mo
     ├── script                         # Gazebo World plugin C++ script      
     │   ├── welcome_message.cpp
     ├── world                          # Gazebo main World containing models 
-    │   ├── MyHomeOffice.world
+    │   ├── myWorld.world
     ├── CMakeLists.txt                 # Link libraries 
     └──                              
