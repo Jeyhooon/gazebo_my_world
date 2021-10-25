@@ -25,3 +25,16 @@ Here is the created world in gazebo (SeviceRobot is created using fix and revolu
     │   ├── myWorld.world
     ├── CMakeLists.txt                 # Link libraries 
     └──                              
+
+## Getting Started
+
+* Copy this repo to your local drive:
+`git clone https://github.com/Jeyhooon/gazebo_my_world.git`
+* Change directory to the copied repo: e.g.: `cd ~/git/gazebo_my_world`
+* create the build directory: `mkdir build`
+* `cd build`
+* `cmake ../`
+* `make`
+* `export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/git/gazebo_my_world/build`
+* `cd ~/git/gazebo_my_world/world`
+* Run `gazebo myworld`
