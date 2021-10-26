@@ -20,7 +20,7 @@ Here is the created world in gazebo (SeviceRobot is created using fix and revolu
     │   │   ├── model.config
     │   │   ├── model.sdf
     ├── script                         # Gazebo World plugin C++ script      
-    │   ├── welcome_message.cpp
+    │   ├── welcome_msg.cpp
     ├── world                          # Gazebo main World containing models 
     │   ├── myWorld.world
     ├── CMakeLists.txt                 # Link libraries 
@@ -39,4 +39,5 @@ Here is the created world in gazebo (SeviceRobot is created using fix and revolu
 * `cd ~/git/gazebo_my_world/world`
 * Run `gazebo myworld`
 
-You should see the gazebo environment shown in image above and also a welcome message in the terminal: `Welcome to my home!`
+You should see a sentence on command line asking for your name; please enter your name.
+Afterwards, you should see the gazebo environment shown in image above and also a welcome message in the terminal: `Welcome to <your_name>'s world!`
